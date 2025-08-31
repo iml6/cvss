@@ -1,0 +1,10 @@
+cve % grep -r vectorString -m 1 ./cve-data/* |awk '{print $1}' | sed 's/.$//'
+./cve-data/cves/2013/2xxx/CVE-2013-2465.json
+./cve-data/cves/2013/2xxx/CVE-2013-2551.json
+./cve-data/cves/2013/2xxx/CVE-2013-2423.json
+./cve-data/cves/2013/2xxx/CVE-2013-2729.json
+./cve-data/cves/2013/2xxx/CVE-2013-2251.json
+./cve-data/cves/2013/2xxx/CVE-2013-2596.json
+./cve-data/cves/2013/2xxx/CVE-2013-2597.json
+./cve-data/cves/2013/2xxx/CVE-2013-2094.json
+./cve-data/cves/2013/6xxx/CVE-2013-6040.json
